@@ -23,6 +23,7 @@ public class StudController
 	{
 		//StudService st=new StudService();
 		st.add(login);
+		System.out.println("JenkinsTesting");
 	}
 	@GetMapping("/get")
 	public List<Login> get()
